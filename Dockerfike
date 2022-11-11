@@ -1,4 +1,4 @@
-FROM node:16
+FROM node:16-slim
 LABEL project ="ashoklerinig"
 LABEL AUTHOR="ashokmaddula"
 RUN git clone https://github.com/ashokmaddula/angular-realworld-example-app.git
